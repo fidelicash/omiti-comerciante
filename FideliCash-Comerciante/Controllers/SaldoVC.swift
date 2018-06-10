@@ -31,15 +31,6 @@ class SaldoVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIN
         historicoTV.delegate = self
         historicoTV.dataSource = self
         
-        userref = DataService.ds.REF_USER_CURRENT
-        userref.observeSingleEvent(of: .value, with: { (snapshot) in
-            let value = snapshot.value as? NSDictionary
-            if let valor = value?["saldo"] as? Double {
-                self.saldoLbl.text = "\(String(format: "%.2f", valor))"
-            }
-            UserCPF = (value?["cpf"] as? String)!
-        })
-        
         DataService.ds.REF_HISTORY.observe(.value, with: { (snapshot) in
             //        DataService.ds.REF_HISTORY.queryOrdered(byChild: "origin").queryEqual(toValue: KeychainWrapper.standard.string(forKey: KEY_UID)!).observe(.value, with: { (snapshot) in
             
@@ -47,7 +38,7 @@ class SaldoVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIN
                 for snap in snapshot {
                     if let postDict = snap.value as? Dictionary<String, AnyObject> {
                         let key = snap.key
-                        if (postDict["origin"] as! String) == (KeychainWrapper.standard.string(forKey: KEY_UID)!) {
+                        if (postDict["origin"] as! String) == (KeychainWrapper.standard.string(forKey: KEY_UID)!) || (postDict["target"] as! String) == (KeychainWrapper.standard.string(forKey: KEY_UID)!) {
                             let post = Historico(postKey: key, postData: postDict)
                             self.historico.append(post)
                         }
@@ -59,6 +50,14 @@ class SaldoVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIN
             self.activityView.isHidden = true
             self.activityIndicator.stopAnimating()
             
+            self.userref = DataService.ds.REF_USER_CURRENT
+            self.userref.observeSingleEvent(of: .value, with: { (snapshot) in
+                let value = snapshot.value as? NSDictionary
+                if let valor = value?["saldo"] as? Double {
+                    self.saldoLbl.text = "\(String(format: "%.2f", valor))"
+                }
+                UserCPF = (value?["cpf"] as? String)!
+            })
         })
     }
     
