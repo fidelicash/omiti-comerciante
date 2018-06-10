@@ -24,16 +24,13 @@ class HistoricoTVC: UITableViewCell {
 
     func configureCell(date: String, origin: String, target: String, value: Double) {
         
-        var tipo = ""
         if KeychainWrapper.standard.string(forKey: KEY_UID)! == origin {
             self.entradaSaidaIMG.image = #imageLiteral(resourceName: "Down")
-            tipo = origin
         } else {
             self.entradaSaidaIMG.image = #imageLiteral(resourceName: "UP")
-            tipo = target
         }
         
-        DataService.ds.REF_USERS.child(tipo).observe(.value, with: { (snapshot) in
+        DataService.ds.REF_USERS.child(origin).observe(.value, with: { (snapshot) in
             if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
                 for snap in snapshot {
                     if snap.key == "nome" {

@@ -33,7 +33,7 @@ class SaldoVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIN
         
         DataService.ds.REF_HISTORY.observe(.value, with: { (snapshot) in
             //        DataService.ds.REF_HISTORY.queryOrdered(byChild: "origin").queryEqual(toValue: KeychainWrapper.standard.string(forKey: KEY_UID)!).observe(.value, with: { (snapshot) in
-            
+            self.historico.removeAll()
             if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
                 for snap in snapshot {
                     if let postDict = snap.value as? Dictionary<String, AnyObject> {

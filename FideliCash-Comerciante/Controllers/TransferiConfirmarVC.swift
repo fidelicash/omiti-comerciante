@@ -44,7 +44,7 @@ class TransferiConfirmarVC: UIViewController {
                     "target":target,
                     "value": cost2
                     ] as [String : Any]
-                let url = "http://fddcdf7e.ngrok.io/users/transaction"
+                let url = "https://fidelicash.herokuapp.com/users/transaction"
                 Alamofire.request(url, method:.post, parameters:param2,encoding: JSONEncoding.default).responseJSON { response in
                     switch response.result {
                     case .success:

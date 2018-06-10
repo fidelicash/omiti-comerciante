@@ -3,6 +3,28 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in HistoricoTVC.configureCell(date:origin:target:value:):HistoricoTVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tipo">
+            </PersistentString>
+            <PersistentString
+               value = "origin">
+            </PersistentString>
+            <PersistentString
+               value = "snap.key">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in TransferiConfirmarVC.transferirBtnPressed(_:):TransferiConfirmarVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "snap.key">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "TransferiConfirmarVC.transferirBtnPressed(_:):TransferiConfirmarVC.swift">
          <PersistentStrings>
             <PersistentString
@@ -14,12 +36,7 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in closure #1 in TransferiConfirmarVC.transferirBtnPressed(_:):TransferiConfirmarVC.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "snap.key">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "closure #1 in closure #1 in closure #1 in TransferiConfirmarVC.transferirBtnPressed(_:):TransferiConfirmarVC.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in TransferiConfirmarVC.transferirBtnPressed(_:):TransferiConfirmarVC.swift">
