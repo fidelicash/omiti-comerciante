@@ -7,21 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007FE183AC100956E2B99BF0 /* Pods_FideliCash_Comerciante.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856B13B14EE1F3CDF979AB2D /* Pods_FideliCash_Comerciante.framework */; };
 		BC5E08EE20CC81A2004F778F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E08ED20CC81A2004F778F /* AppDelegate.swift */; };
-		BC5E08F020CC81A2004F778F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E08EF20CC81A2004F778F /* ViewController.swift */; };
+		BC5E08F020CC81A2004F778F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E08EF20CC81A2004F778F /* LoginVC.swift */; };
 		BC5E08F320CC81A2004F778F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E08F120CC81A2004F778F /* Main.storyboard */; };
 		BC5E08F520CC81A4004F778F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5E08F420CC81A4004F778F /* Assets.xcassets */; };
 		BC5E08F820CC81A4004F778F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E08F620CC81A4004F778F /* LaunchScreen.storyboard */; };
+		BC5E090020CC8237004F778F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC5E08FF20CC8237004F778F /* GoogleService-Info.plist */; };
+		BC5E090720CC85EE004F778F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E090620CC85EE004F778F /* RoundedButton.swift */; };
+		BC5E090920CC860F004F778F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E090820CC860F004F778F /* TextField.swift */; };
+		BC5E090B20CC8901004F778F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E090A20CC8901004F778F /* Constants.swift */; };
+		BC84CB4A20CCAEE600BCA817 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB4920CCAEE600BCA817 /* CircleView.swift */; };
+		BC84CB4C20CCB28A00BCA817 /* SaldoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB4B20CCB28A00BCA817 /* SaldoVC.swift */; };
+		BC84CB4E20CCB2D700BCA817 /* HistoricoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB4D20CCB2D700BCA817 /* HistoricoTVC.swift */; };
+		BC84CB5020CCB31400BCA817 /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB4F20CCB31400BCA817 /* Historico.swift */; };
+		BC84CB5220CCB33D00BCA817 /* Dataservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB5120CCB33D00BCA817 /* Dataservice.swift */; };
+		BC84CB5420CCB73300BCA817 /* TransferenciaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB5320CCB73300BCA817 /* TransferenciaVC.swift */; };
+		BC84CB5620CCB9F200BCA817 /* TransferiConfirmarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB5520CCB9F200BCA817 /* TransferiConfirmarVC.swift */; };
+		BC84CB5820CCDB9B00BCA817 /* ProdutosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB5720CCDB9B00BCA817 /* ProdutosVC.swift */; };
+		BC84CB5A20CCDBE500BCA817 /* ProdutosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB5920CCDBE500BCA817 /* ProdutosTVC.swift */; };
+		BC84CB5C20CCDC2900BCA817 /* Produtos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB5B20CCDC2900BCA817 /* Produtos.swift */; };
+		BC84CB6220CCFCAA00BCA817 /* ReceberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84CB6120CCFCAA00BCA817 /* ReceberVC.swift */; };
+		BC9F21C320CC9A6500990B6B /* MeusDadosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F21C220CC9A6500990B6B /* MeusDadosVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		856B13B14EE1F3CDF979AB2D /* Pods_FideliCash_Comerciante.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FideliCash_Comerciante.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B906238E5252F224039333 /* Pods-FideliCash-Comerciante.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FideliCash-Comerciante.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FideliCash-Comerciante/Pods-FideliCash-Comerciante.debug.xcconfig"; sourceTree = "<group>"; };
+		95BBE14D9A5304DC4273AE0E /* Pods-FideliCash-Comerciante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FideliCash-Comerciante.release.xcconfig"; path = "Pods/Target Support Files/Pods-FideliCash-Comerciante/Pods-FideliCash-Comerciante.release.xcconfig"; sourceTree = "<group>"; };
 		BC5E08EA20CC81A2004F778F /* FideliCash-Comerciante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FideliCash-Comerciante.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5E08ED20CC81A2004F778F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC5E08EF20CC81A2004F778F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC5E08EF20CC81A2004F778F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BC5E08F220CC81A2004F778F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC5E08F420CC81A4004F778F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5E08F720CC81A4004F778F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5E08F920CC81A4004F778F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5E08FF20CC8237004F778F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC5E090120CC836D004F778F /* FideliCash-Comerciante.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FideliCash-Comerciante.entitlements"; sourceTree = "<group>"; };
+		BC5E090620CC85EE004F778F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		BC5E090820CC860F004F778F /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		BC5E090A20CC8901004F778F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC84CB4920CCAEE600BCA817 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		BC84CB4B20CCB28A00BCA817 /* SaldoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaldoVC.swift; sourceTree = "<group>"; };
+		BC84CB4D20CCB2D700BCA817 /* HistoricoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoTVC.swift; sourceTree = "<group>"; };
+		BC84CB4F20CCB31400BCA817 /* Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		BC84CB5120CCB33D00BCA817 /* Dataservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataservice.swift; sourceTree = "<group>"; };
+		BC84CB5320CCB73300BCA817 /* TransferenciaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciaVC.swift; sourceTree = "<group>"; };
+		BC84CB5520CCB9F200BCA817 /* TransferiConfirmarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferiConfirmarVC.swift; sourceTree = "<group>"; };
+		BC84CB5720CCDB9B00BCA817 /* ProdutosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosVC.swift; sourceTree = "<group>"; };
+		BC84CB5920CCDBE500BCA817 /* ProdutosTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosTVC.swift; sourceTree = "<group>"; };
+		BC84CB5B20CCDC2900BCA817 /* Produtos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produtos.swift; sourceTree = "<group>"; };
+		BC84CB6120CCFCAA00BCA817 /* ReceberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceberVC.swift; sourceTree = "<group>"; };
+		BC9F21C220CC9A6500990B6B /* MeusDadosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusDadosVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007FE183AC100956E2B99BF0 /* Pods_FideliCash_Comerciante.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +78,8 @@
 			children = (
 				BC5E08EC20CC81A2004F778F /* FideliCash-Comerciante */,
 				BC5E08EB20CC81A2004F778F /* Products */,
+				E56A6C47932847BA7F0F4CFD /* Pods */,
+				FD3E26C1513F8D485A9C9D22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,80 @@
 		BC5E08EC20CC81A2004F778F /* FideliCash-Comerciante */ = {
 			isa = PBXGroup;
 			children = (
+				BC5E090520CC85B4004F778F /* Controllers */,
+				BC5E090420CC85AE004F778F /* Custom */,
+				BC5E090320CC85A8004F778F /* Util */,
+				BC5E090220CC8593004F778F /* DataSource */,
+				BC5E090120CC836D004F778F /* FideliCash-Comerciante.entitlements */,
 				BC5E08ED20CC81A2004F778F /* AppDelegate.swift */,
-				BC5E08EF20CC81A2004F778F /* ViewController.swift */,
 				BC5E08F120CC81A2004F778F /* Main.storyboard */,
 				BC5E08F420CC81A4004F778F /* Assets.xcassets */,
 				BC5E08F620CC81A4004F778F /* LaunchScreen.storyboard */,
+				BC5E08FF20CC8237004F778F /* GoogleService-Info.plist */,
 				BC5E08F920CC81A4004F778F /* Info.plist */,
 			);
 			path = "FideliCash-Comerciante";
+			sourceTree = "<group>";
+		};
+		BC5E090220CC8593004F778F /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				BC84CB4F20CCB31400BCA817 /* Historico.swift */,
+				BC84CB5B20CCDC2900BCA817 /* Produtos.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		BC5E090320CC85A8004F778F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E090A20CC8901004F778F /* Constants.swift */,
+				BC84CB5120CCB33D00BCA817 /* Dataservice.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BC5E090420CC85AE004F778F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E090620CC85EE004F778F /* RoundedButton.swift */,
+				BC5E090820CC860F004F778F /* TextField.swift */,
+				BC84CB4920CCAEE600BCA817 /* CircleView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		BC5E090520CC85B4004F778F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E08EF20CC81A2004F778F /* LoginVC.swift */,
+				BC9F21C220CC9A6500990B6B /* MeusDadosVC.swift */,
+				BC84CB4B20CCB28A00BCA817 /* SaldoVC.swift */,
+				BC84CB4D20CCB2D700BCA817 /* HistoricoTVC.swift */,
+				BC84CB5320CCB73300BCA817 /* TransferenciaVC.swift */,
+				BC84CB5520CCB9F200BCA817 /* TransferiConfirmarVC.swift */,
+				BC84CB5720CCDB9B00BCA817 /* ProdutosVC.swift */,
+				BC84CB5920CCDBE500BCA817 /* ProdutosTVC.swift */,
+				BC84CB6120CCFCAA00BCA817 /* ReceberVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E56A6C47932847BA7F0F4CFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94B906238E5252F224039333 /* Pods-FideliCash-Comerciante.debug.xcconfig */,
+				95BBE14D9A5304DC4273AE0E /* Pods-FideliCash-Comerciante.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD3E26C1513F8D485A9C9D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				856B13B14EE1F3CDF979AB2D /* Pods_FideliCash_Comerciante.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5E08FC20CC81A4004F778F /* Build configuration list for PBXNativeTarget "FideliCash-Comerciante" */;
 			buildPhases = (
+				C70E3E3D975A9FE2F79DDEFA /* [CP] Check Pods Manifest.lock */,
 				BC5E08E620CC81A2004F778F /* Sources */,
 				BC5E08E720CC81A2004F778F /* Frameworks */,
 				BC5E08E820CC81A2004F778F /* Resources */,
+				9759CE6AF18B4C53A73373FF /* [CP] Embed Pods Frameworks */,
+				F375D6BB1924E5575948AA74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +205,17 @@
 				TargetAttributes = {
 					BC5E08E920CC81A2004F778F = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5E08F820CC81A4004F778F /* LaunchScreen.storyboard in Resources */,
+				BC5E090020CC8237004F778F /* GoogleService-Info.plist in Resources */,
 				BC5E08F520CC81A4004F778F /* Assets.xcassets in Resources */,
 				BC5E08F320CC81A2004F778F /* Main.storyboard in Resources */,
 			);
@@ -130,13 +251,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9759CE6AF18B4C53A73373FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FideliCash-Comerciante/Pods-FideliCash-Comerciante-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FideliCash-Comerciante/Pods-FideliCash-Comerciante-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70E3E3D975A9FE2F79DDEFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FideliCash-Comerciante-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F375D6BB1924E5575948AA74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FideliCash-Comerciante/Pods-FideliCash-Comerciante-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FideliCash-Comerciante/Pods-FideliCash-Comerciante-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC5E08E620CC81A2004F778F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5E08F020CC81A2004F778F /* ViewController.swift in Sources */,
+				BC84CB5820CCDB9B00BCA817 /* ProdutosVC.swift in Sources */,
+				BC5E090B20CC8901004F778F /* Constants.swift in Sources */,
+				BC84CB5620CCB9F200BCA817 /* TransferiConfirmarVC.swift in Sources */,
+				BC5E08F020CC81A2004F778F /* LoginVC.swift in Sources */,
+				BC9F21C320CC9A6500990B6B /* MeusDadosVC.swift in Sources */,
+				BC84CB4E20CCB2D700BCA817 /* HistoricoTVC.swift in Sources */,
+				BC5E090720CC85EE004F778F /* RoundedButton.swift in Sources */,
+				BC84CB4C20CCB28A00BCA817 /* SaldoVC.swift in Sources */,
+				BC84CB5020CCB31400BCA817 /* Historico.swift in Sources */,
+				BC84CB5C20CCDC2900BCA817 /* Produtos.swift in Sources */,
+				BC84CB5220CCB33D00BCA817 /* Dataservice.swift in Sources */,
 				BC5E08EE20CC81A2004F778F /* AppDelegate.swift in Sources */,
+				BC84CB4A20CCAEE600BCA817 /* CircleView.swift in Sources */,
+				BC84CB5420CCB73300BCA817 /* TransferenciaVC.swift in Sources */,
+				BC5E090920CC860F004F778F /* TextField.swift in Sources */,
+				BC84CB5A20CCDBE500BCA817 /* ProdutosTVC.swift in Sources */,
+				BC84CB6220CCFCAA00BCA817 /* ReceberVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +493,14 @@
 		};
 		BC5E08FD20CC81A4004F778F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B906238E5252F224039333 /* Pods-FideliCash-Comerciante.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FideliCash-Comerciante/FideliCash-Comerciante.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7984M9FF87;
 				INFOPLIST_FILE = "FideliCash-Comerciante/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +514,14 @@
 		};
 		BC5E08FE20CC81A4004F778F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BBE14D9A5304DC4273AE0E /* Pods-FideliCash-Comerciante.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FideliCash-Comerciante/FideliCash-Comerciante.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7984M9FF87;
 				INFOPLIST_FILE = "FideliCash-Comerciante/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
